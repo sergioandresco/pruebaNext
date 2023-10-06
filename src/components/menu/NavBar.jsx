@@ -1,8 +1,9 @@
 import Link from "next/link"
+import "../../assets/scss/StylesComponents/navBar.css"
 
 export default function MenuNavigation(){
     return(
-        <nav>
+        <nav className="container-menu">
 
           <h1>Este es la simulacion de un menu</h1>
 
@@ -18,6 +19,10 @@ export default function MenuNavigation(){
 
             <li>
               <Link href="/about">About</Link>
+            </li>
+
+            <li>
+              <Link href="/inventario">Inventario</Link>
             </li>
 
           </ul>
