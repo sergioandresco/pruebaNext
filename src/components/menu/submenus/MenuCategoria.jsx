@@ -10,15 +10,15 @@ export default function SubMenuInventario(){
           <ul>
 
             <li>
-              <Link href="/">Inventario</Link>
+              <Link href="/inventario">Inventario</Link>
             </li>
 
             <li>
-              <Link href="/categorias">Categorias</Link>
+              <Link href="/inventario/categorias">Categorias</Link>
             </li>
 
             <li>
-              <Link href="/productos">Productos</Link>
+              <Link href="/inventario/categorias/productos">Productos</Link>
             </li>
 
           </ul>
